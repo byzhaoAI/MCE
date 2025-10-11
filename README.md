@@ -10,7 +10,7 @@ Accepted by **Pattern Recognition** in 2025
 
 
 ## Updates
-- 2025/10/11 Create project.
+- 2025/10/11 Create project. Support MCE on nuScenes dataset.
 
 
 ## Dataset Support
@@ -22,10 +22,14 @@ Accepted by **Pattern Recognition** in 2025
 ## Quick Start
 ### 1. nuScenes
 ##### Download dataset
-<!-- a. Download raw data of [DAIR-V2X.](https://thudair.baai.ac.cn/cooptest) -->
-##### Install
-<!-- Please refer to the [INSTALL.md](./INSTALL.md) for detailed documentations. -->
-##### Train&Test
+```
+mkdir nuScenes
+```
+First, you need to download raw data from [nuScenes](https://www.nuscenes.org/) to the created path `/nuScenes`.
+
+##### Install and Train
+Please refer to the [simple_bev/README.md](./simple_bev/README.md) for detailed documentations.
+
 
 ### 2. IEMOCAP
 ##### Download dataset
@@ -52,4 +56,4 @@ Coming soon...
 ```
 
 ## Acknowledgements
-Thank for the dataset and code support by [simple-bev](https://github.com/aharley/simple_bev), [RASSION](https://github.com/Jun-Jie-Shi/PASSION), [RedCore](https://github.com/sunjunaimer/RedCore) and [SMIL](https://github.com/deep-real/SMIL).
+Thank for the project supported by [simple-bev](https://github.com/aharley/simple_bev), [RASSION](https://github.com/Jun-Jie-Shi/PASSION), [RedCore](https://github.com/sunjunaimer/RedCore) and [SMIL](https://github.com/deep-real/SMIL).
