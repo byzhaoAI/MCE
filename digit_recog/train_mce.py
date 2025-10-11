@@ -15,9 +15,7 @@ import torch.nn as nn
 import torch.backends.cudnn as cudnn
 from torch.utils.data import DataLoader
 
-# from models.soundlenet5_exgat import SoundLenet5  # can work
-from models.soundlenet5_shap_new import SoundLenet5     # can work
-# from models.soundlenet5_pii import SoundLenet5
+from models.soundlenet5_mce import SoundLenet5
 from models.loss import KDFeatureLoss, KDFeatureLossTwo, KDLossAlignTwo
 
 from dataset.partial_training_dataset import MetaTrSouMNIST
@@ -125,9 +123,8 @@ def main(args):
         image_sound_extractor.train()
 
         image_dict, sound_dict = None, None
-        unimodal_path = 'save/unimodal_ckpts/best'
+        unimodal_path = 'unimodal_checkpoints/'
         model_pths = os.listdir(unimodal_path)
-        print(model_pths)
         for model_pth in model_pths:
             if 'image' in model_pth:
                 image_dict = torch.load(path.join(unimodal_path, model_pth), map_location='cpu')
@@ -179,7 +176,6 @@ def main(args):
                 meta_batch = next(iter(meta_val_loader))
             '''
 
-            # 一阶段，使用全模态学习邻接矩阵
             global_step = run_train(args, meta_batch, modal_weight, image_sound_extractor, criterion_meta_train, optimizer_image_sound, device, global_step, args.iterations)
             scheduler_image_sound.step()
 

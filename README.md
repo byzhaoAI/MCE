@@ -72,6 +72,14 @@ mkdir soundmnist
 ```
 - Download the data from [GoogleDrive](https://drive.google.com/file/d/1JTS--8d_BxzZfhQfSAAYeYTjCdUbJyuD/view?usp=sharing) and extracted it to `/soundmnist`
 
+##### Pretrained unimodal setup
+```
+mkdir unimodal_ckpts
+mkdir unimodal_ckpts/image
+mkdir unimodal_ckpts/sound
+```
+Download desired pretrained encoder&decoder from [OneDrive](https://1drv.ms/f/c/fc16b0638d061e5c/EmrVdLIWMWRLoQYwkJFb-AMBEvqlvmncdXiydGjIIZ0HPw?e=Hd6kMf) to the created path `/unimodal_checkpoints`.
+
 ##### Install
 ```
 cd digit_recog
@@ -79,9 +87,9 @@ conda env create -f environment.yml
 ```
 
 ##### Train
-Activate the environment `mce_iemocap` first, then
+Activate the environment `audiovision` first, then
 ```
-python train.py
+python train_mce.py
 ```
 
 ## Citation
