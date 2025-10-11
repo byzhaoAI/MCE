@@ -14,7 +14,7 @@ Accepted by **Pattern Recognition** in 2025
 
 
 ## Dataset Support
-  - [x] nuScenes
+  - [ ] nuScenes
   - [ ] BraTS2020
   - [x] IEMOCAP
   - [x] AudiovisionMNIST
