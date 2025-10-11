@@ -105,5 +105,61 @@ or
 Coming soon...
 ```
 
+1. If you are using `scene_seg`, please cite:
+- **nuScenes: A multimodal dataset for autonomous driving**
+```
+@inproceedings{caesar2020nuscenes,
+  title={nuscenes: A multimodal dataset for autonomous driving},
+  author={Caesar, Holger and Bankiti, Varun and Lang, Alex H and Vora, Sourabh and Liong, Venice Erin and Xu, Qiang and Krishnan, Anush and Pan, Yu and Baldan, Giancarlo and Beijbom, Oscar},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={11621--11631},
+  year={2020}
+}
+```
+
+- **Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?**
+```
+@inproceedings{harley2023simple,
+  title={Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?},
+  author={Harley, Adam W and Fang, Zhaoyuan and Li, Jie and Ambrus, Rares and Fragkiadaki, Katerina},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={2759--2765},
+  year={2023},
+  organization={IEEE}
+}
+```
+
+2. If you are using `emotion_recog`, please cite:
+- **RedCore: Relative advantage aware cross-modal representation learning for missing modalities with imbalanced missing rates**
+```
+@inproceedings{sun2024redcore,
+  title={RedCore: Relative advantage aware cross-modal representation learning for missing modalities with imbalanced missing rates},
+  author={Sun, Jun and Zhang, Xinxin and Han, Shoukang and Ruan, Yu-Ping and Li, Taihao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={13},
+  pages={15173--15182},
+  year={2024}
+}
+```
+
+3. If you are using `digit_recog`, please cite:
+- **SMIL: Multimodal Learning with Severely Missing Modality**
+```
+@inproceedings{ma2021smil,
+  title={Smil: Multimodal learning with severely missing modality},
+  author={Ma, Mengmeng and Ren, Jian and Zhao, Long and Tulyakov, Sergey and Wu, Cathy and Peng, Xi},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={35},
+  number={3},
+  pages={2302--2310},
+  year={2021}
+}
+```
+
 ## Acknowledgements
-Thank for the project supported by [simple-bev](https://github.com/aharley/simple_bev), [RASSION](https://github.com/Jun-Jie-Shi/PASSION), [RedCore](https://github.com/sunjunaimer/RedCore)/[MMIN](https://github.com/AIM3-RUC/MMIN/tree/master) and [SMIL](https://github.com/deep-real/SMIL).
+Thank for the project supported by 
+- scene segmentation: [SimpleBEV](https://github.com/aharley/simple_bev)
+- medical image segmentation: [RASSION](https://github.com/Jun-Jie-Shi/PASSION)
+- emotion recognition: [RedCore](https://github.com/sunjunaimer/RedCore)/[MMIN](https://github.com/AIM3-RUC/MMIN/tree/master)
+- digit recognition: [SMIL](https://github.com/deep-real/SMIL)

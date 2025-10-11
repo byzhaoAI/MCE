@@ -55,29 +55,3 @@ For example, an intrinsics matrix is `pix_T_cam`. An extrinsics matrix is `cam_T
 
 In this project's context, we often need something like this:
 `xyz_cam0 = cam0_T_cam1 * cam1_T_velodyne * xyz_velodyne`
-
-
-## Citation
-Please cite:
-1. **nuscenes: A multimodal dataset for autonomous driving**
-```
-@inproceedings{caesar2020nuscenes,
-  title={nuscenes: A multimodal dataset for autonomous driving},
-  author={Caesar, Holger and Bankiti, Varun and Lang, Alex H and Vora, Sourabh and Liong, Venice Erin and Xu, Qiang and Krishnan, Anush and Pan, Yu and Baldan, Giancarlo and Beijbom, Oscar},
-  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
-  pages={11621--11631},
-  year={2020}
-}
-```
-
-2. **Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?**.
-```
-@inproceedings{harley2023simple,
-  title={Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?},
-  author={Harley, Adam W and Fang, Zhaoyuan and Li, Jie and Ambrus, Rares and Fragkiadaki, Katerina},
-  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
-  pages={2759--2765},
-  year={2023},
-  organization={IEEE}
-}
-```
