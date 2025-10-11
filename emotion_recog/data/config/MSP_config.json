@@ -1,0 +1,6 @@
+{
+    "data_root": "inputs/MSP-IMPROV",
+    "target_root": "inputs/MSP/MSP-IMPROV_features_2021/target",
+    "total_cv": 12,
+    "feature_root": "inputs/MSP/MSP-IMPROV_features_2021"
+}

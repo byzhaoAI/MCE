@@ -1,0 +1,7 @@
+*~
+__pycache__
+inputs
+unimodal_checkpoints
+logs
+soundmnist
+save
