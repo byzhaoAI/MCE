@@ -32,7 +32,8 @@ First, you need to download raw data from [nuScenes](https://www.nuscenes.org/) 
 Coming soon ...
 
 ##### Install and Train
-Please refer to the [scene_seg/README.md](./scene_seg/README.md) for detailed documentations.
+Coming soon ...
+<!-- Please refer to the [scene_seg/README.md](./scene_seg/README.md) for detailed documentations. -->
 
 
 ### 2. IEMOCAP
