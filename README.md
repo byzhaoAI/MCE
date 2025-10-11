@@ -50,7 +50,7 @@ mkdir inputs/IEMOCAP
 ```
 mkdir unimodal_checkpoints
 ```
-Download desired pretrained encoder&decoder from [OneDrive](https://1drv.ms/f/c/fc16b0638d061e5c/EmrVdLIWMWRLoQYwkJFb-AMBEvqlvmncdXiydGjIIZ0HPw?e=Hd6kMf) to the created path `unimodal_checkpoints`.
+Download desired pretrained encoder&decoder from [OneDrive](https://1drv.ms/f/c/fc16b0638d061e5c/EmrVdLIWMWRLoQYwkJFb-AMBEvqlvmncdXiydGjIIZ0HPw?e=Hd6kMf) to the created path `/unimodal_checkpoints`.
 
 ##### Install
 ```
@@ -65,10 +65,24 @@ sh IEMOCAP_MCE.sh
 ```
 
 ### 3. AudiovisionMNIST
-##### Download dataset
-##### Install
-##### Train&Test 
+##### Dataset setup
+```
+cd digit_recog
+mkdir soundmnist
+```
+- Download the data from [GoogleDrive](https://drive.google.com/file/d/1JTS--8d_BxzZfhQfSAAYeYTjCdUbJyuD/view?usp=sharing) and extracted it to `/soundmnist`
 
+##### Install
+```
+cd digit_recog
+conda env create -f environment.yml
+```
+
+##### Train
+Activate the environment `mce_iemocap` first, then
+```
+python train.py
+```
 
 ## Citation
 If you are using our project for your research, please cite the following paper:
