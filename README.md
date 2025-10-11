@@ -105,7 +105,7 @@ or
 Coming soon...
 ```
 
-1. If you are using `scene_seg`, please cite:
+1. If you are using `scene_seg`, please also cite:
 - **nuScenes: A multimodal dataset for autonomous driving**
 ```
 @inproceedings{caesar2020nuscenes,
@@ -116,7 +116,6 @@ Coming soon...
   year={2020}
 }
 ```
-
 - **Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?**
 ```
 @inproceedings{harley2023simple,
@@ -129,7 +128,7 @@ Coming soon...
 }
 ```
 
-2. If you are using `emotion_recog`, please cite:
+2. If you are using `emotion_recog`, please also cite:
 - **RedCore: Relative advantage aware cross-modal representation learning for missing modalities with imbalanced missing rates**
 ```
 @inproceedings{sun2024redcore,
@@ -143,7 +142,7 @@ Coming soon...
 }
 ```
 
-3. If you are using `digit_recog`, please cite:
+3. If you are using `digit_recog`, please also cite:
 - **SMIL: Multimodal Learning with Severely Missing Modality**
 ```
 @inproceedings{ma2021smil,
