@@ -10,7 +10,7 @@ Accepted by **Pattern Recognition** in 2025
 
 
 ## Updates
-- 2025/10/11 Create project. Support MCE on nuScenes dataset.
+- 2025/10/11 Create project. Support MCE on nuScenes dataset. 
 
 
 ## Dataset Support
