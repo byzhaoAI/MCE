@@ -50,7 +50,7 @@ mkdir inputs/IEMOCAP
 ```
 mkdir unimodal_checkpoints
 ```
-Download desired pretrained encoder&decoder from [OneDrive](https://1drv.ms/f/c/fc16b0638d061e5c/EmrVdLIWMWRLoQYwkJFb-AMBEvqlvmncdXiydGjIIZ0HPw?e=Hd6kMf) to the created path `/unimodal_checkpoints`.
+Download desired pretrained encoder&decoder from [GoogleDrive](https://drive.google.com/drive/folders/1AQmQnV-wW-aM6btdHlb4OPr4hrmtrlTW?usp=sharing) to the created path `/unimodal_checkpoints`.
 
 ##### Install
 ```
@@ -78,7 +78,7 @@ mkdir unimodal_ckpts
 mkdir unimodal_ckpts/image
 mkdir unimodal_ckpts/sound
 ```
-Download desired pretrained encoder&decoder from [OneDrive](https://1drv.ms/f/c/fc16b0638d061e5c/EmrVdLIWMWRLoQYwkJFb-AMBEvqlvmncdXiydGjIIZ0HPw?e=Hd6kMf) to the created path `/unimodal_checkpoints`.
+Download desired pretrained encoder&decoder from [GoogleDrive](https://drive.google.com/drive/folders/1AQmQnV-wW-aM6btdHlb4OPr4hrmtrlTW?usp=sharing) to the created path `/unimodal_checkpoints`.
 
 ##### Install
 ```
