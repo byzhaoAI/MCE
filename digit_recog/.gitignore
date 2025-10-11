@@ -4,3 +4,4 @@ inputs
 unimodal_checkpoints
 logs
 soundmnist
+save
