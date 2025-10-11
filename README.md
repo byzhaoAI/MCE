@@ -10,7 +10,7 @@ Accepted by **Pattern Recognition** in 2025
 
 
 ## Updates
-- 2025/10/11 Create project. Support emotion recognition task on IEMOCAP.
+- 2025/10/11 Create project. Support emotion recognition task on IEMOCAP, digit recognition task on AudiovisionMNIST.
 
 
 ## Dataset Support
