@@ -59,10 +59,18 @@ In this project's context, we often need something like this:
 
 ## Citation
 Please cite:
+1. **nuscenes: A multimodal dataset for autonomous driving**
+```
+@inproceedings{caesar2020nuscenes,
+  title={nuscenes: A multimodal dataset for autonomous driving},
+  author={Caesar, Holger and Bankiti, Varun and Lang, Alex H and Vora, Sourabh and Liong, Venice Erin and Xu, Qiang and Krishnan, Anush and Pan, Yu and Baldan, Giancarlo and Beijbom, Oscar},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={11621--11631},
+  year={2020}
+}
+```
 
-**Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?**.
-
-The bibtex is:
+2. **Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?**.
 ```
 @inproceedings{harley2023simple,
   title={Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?},
@@ -71,14 +79,5 @@ The bibtex is:
   pages={2759--2765},
   year={2023},
   organization={IEEE}
-}
-```
-or
-```
-@inproceedings{harley2022simple,
-  title={Simple-{BEV}: What Really Matters for Multi-Sensor BEV Perception?},
-  author={Adam W. Harley and Zhaoyuan Fang and Jie Li and Rares Ambrus and Katerina Fragkiadaki},
-  booktitle={arXiv:2206.07959},
-  year={2022}
 }
 ```
