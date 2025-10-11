@@ -10,7 +10,7 @@ Accepted by **Pattern Recognition** in 2025
 
 
 ## Updates
-- 2025/10/11 Create project. Support MCE on nuScenes dataset. 
+- 2025/10/11 Create project. Support urban scene segmentation task on nuScenes dataset.
 
 
 ## Dataset Support
@@ -23,12 +23,13 @@ Accepted by **Pattern Recognition** in 2025
 ### 1. nuScenes
 ##### Download dataset
 ```
+cd scene_seg
 mkdir nuScenes
 ```
 First, you need to download raw data from [nuScenes](https://www.nuscenes.org/) to the created path `/nuScenes`.
 
 ##### Install and Train
-Please refer to the [simple_bev/README.md](./simple_bev/README.md) for detailed documentations.
+Please refer to the [scene_seg/README.md](./scene_seg/README.md) for detailed documentations.
 
 
 ### 2. IEMOCAP
