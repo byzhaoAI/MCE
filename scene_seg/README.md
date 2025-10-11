@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 
 ## Training
-To train MCE model, run a command like this:
+To train MCE model, after activate `bev`, run a command like this:
 
 ```
 sh train_imml_mce.sh
