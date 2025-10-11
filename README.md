@@ -1,7 +1,7 @@
 # MCE
 MCE: Towards a General Framework for Handling Missing Modalities under Imbalanced Missing Rates [[DOI]]() [[Arxiv]]()
 
-Accepted by **Pattern Recognition** in 2025
+Accepted by **Pattern Recognition** on Oct.08, 2025.
 
 
 ## Overview
