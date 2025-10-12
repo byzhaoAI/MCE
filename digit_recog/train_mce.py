@@ -129,7 +129,7 @@ def main(args):
             if 'image' in model_pth:
                 image_dict = torch.load(path.join(unimodal_path, model_pth), map_location='cpu')
                 print('==> load image extractor from: ', path.join(unimodal_path, model_pth))
-            elif 'sound' in model_pth and ('_'+str(exist_rate)+'_') in model_pth:
+            elif 'sound' in model_pth and ('_'+str(exist_rate)) in model_pth:
                 sound_dict = torch.load(path.join(unimodal_path, model_pth), map_location='cpu')
                 print('==> load sound extractor from: ', path.join(unimodal_path, model_pth))
         assert image_dict is not None, 'image extractor is None'
@@ -184,11 +184,7 @@ def main(args):
                 saverloader.save(checkpoint_path, optimizer_image_sound, image_sound_extractor, global_step, keep_latest=-1)
                 # print("Adjacent matrix is: ", image_sound_extractor.inter.gc.adj)
 
-            if (global_step) % args.eval_interval == 0 or global_step >= 1200:
-                # test_acc = 0.
-                # for i in range(30):
-                #     test_acc += run_eval(meta_test_loader, image_sound_extractor, device)
-                # test_acc = test_acc / 30
+            if (global_step) % args.eval_interval == 0:
                 image_sound_extractor.eval()
                 if args.only_image_test:
                     test_image_acc = run_eval(meta_test_loader, image_sound_extractor, True, device)
