@@ -1,7 +1,7 @@
 # MCE
 MCE: Towards a General Framework for Handling Missing Modalities under Imbalanced Missing Rates [[DOI]]() [[Arxiv]]()
 
-Accepted by **Pattern Recognition** in 2025
+Accepted by **Pattern Recognition** on Oct.08, 2025.
 
 
 ## Overview
@@ -130,7 +130,7 @@ Coming soon...
 ```
 
 2. If you are using `emotion_recog`, please also cite:
-- **RedCore: Relative advantage aware cross-modal representation learning for missing modalities with imbalanced missing rates**
+- **RedCore: Relative Advantage Aware Cross-modal Representation Learning for Missing Modalities with Imbalanced Missing Rates**
 ```
 @inproceedings{sun2024redcore,
   title={RedCore: Relative advantage aware cross-modal representation learning for missing modalities with imbalanced missing rates},
