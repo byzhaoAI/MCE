@@ -1,5 +1,5 @@
 # MCE
-MCE: Towards a General Framework for Handling Missing Modalities under Imbalanced Missing Rates [[DOI]](https://doi.org/10.1016/j.patcog.2025.112591) [~~[Arxiv]~~]()
+MCE: Towards a General Framework for Handling Missing Modalities under Imbalanced Missing Rates [[DOI]](https://doi.org/10.1016/j.patcog.2025.112591) [[Arxiv]](https://arxiv.org/abs/2510.10534)
 
 Accepted by **Pattern Recognition** on Oct.08, 2025.
 
