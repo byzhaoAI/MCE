@@ -51,7 +51,7 @@ mkdir inputs/IEMOCAP
 ```
 mkdir unimodal_checkpoints
 ```
-Download desired pretrained encoder&decoder from [GoogleDrive](https://drive.google.com/drive/folders/1AQmQnV-wW-aM6btdHlb4OPr4hrmtrlTW?usp=sharing) to the created path `/unimodal_checkpoints`.
+Download desired pretrained encoder&decoder from [GoogleDrive](https://drive.google.com/drive/folders/1AQmQnV-wW-aM6btdHlb4OPr4hrmtrlTW?usp=sharing) or [HuggingFace](https://huggingface.co/byzhaoAI/MCE_ckpts/tree/main/unimodal_checkpoints/IEMOCAP_ckpts) to the created path `/unimodal_checkpoints`.
 
 ##### Install
 ```
@@ -79,7 +79,7 @@ mkdir unimodal_ckpts
 mkdir unimodal_ckpts/image
 mkdir unimodal_ckpts/sound
 ```
-Download desired pretrained encoder&decoder from [GoogleDrive](https://drive.google.com/drive/folders/1AQmQnV-wW-aM6btdHlb4OPr4hrmtrlTW?usp=sharing) to the created path `/unimodal_checkpoints`.
+Download desired pretrained encoder&decoder from [GoogleDrive](https://drive.google.com/drive/folders/1AQmQnV-wW-aM6btdHlb4OPr4hrmtrlTW?usp=sharing) or [HuggingFace](https://huggingface.co/byzhaoAI/MCE_ckpts/tree/main/unimodal_checkpoints/AudiovisionMNIST_ckpts) to the created path `/unimodal_checkpoints`.
 
 ##### Install
 ```
@@ -97,13 +97,14 @@ python train_mce.py
 If you are using our project for your research, please cite the following paper:
 
 ```
-Coming soon...
-```
-
-or
-
-```
-Coming soon...
+@article{zhao2025mce,
+  title={MCE: Towards a general framework for handling missing modalities under imbalanced missing rates},
+  author={Zhao, Binyu and Zhang, Wei and Zou, Zhaonian},
+  journal={Pattern Recognition},
+  pages={112591},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
 
 1. If you are using `scene_seg`, please also cite:
